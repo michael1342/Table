@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid  rgb(43, 43, 68);
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    height: 20rem;
+    width: 60rem;
+    margin: 8rem;
+    text-align: center;
+}
+
+thead {
+    color: rgb(18, 18, 145);
+    font-weight: bold;
+}
+
+
+td {
+    color: rgba(201, 193, 193, 0.514);
+}
+
+.td1 {
+    background-color: rgb(28, 28, 54);
+}
+.td2 {
+     background-color: rgba(17, 17, 43, 0.874);
+}
+.td3 {
+      background-color: rgb(28, 28, 54);
+}
+.td4 {
+    background-color: rgba(17, 17, 43, 0.874);
+}
+.td5 {
+    background-color: rgb(28, 28, 54);
+}
+
+.td:hover {
+     background-color: rgba(201, 193, 193, 0.514);
+     color: white;
+     transition: 0.5s ease-in-out;
+}
+
+.td1:hover {
+     background-color: rgba(55, 55, 93, 0.874);
+     color: white;
+     transition: 0.5s ease-in-out;
+     box-shadow: 3px 1px 1px 2px black;
+}
+.td2:hover {
+     background-color: rgba(55, 55, 93, 0.874);
+     color: white;
+     transition: 0.5s ease-in-out;
+}
+.td3:hover {
+     background-color: rgba(55, 55, 93, 0.874);
+     color: white;
+     transition: 0.5s ease-in-out;
+}
+.td4:hover {
+     background-color: rgba(55, 55, 93, 0.874);
+     color: white;
+     transition: 0.5s ease-in-out;
+}
+.td5:hover {
+     background-color: rgba(55, 55, 93, 0.874);
+     color: white;
+     transition: 0.5s ease-in-out;
+}
+
+.reds {
+    color: rgb(127, 11, 11);
+}
+
+.reds:hover {
+    background-color: rgba(55, 55, 93, 0.874);
+    color: red;
+    transition: 0.5s ease-in-out;
+}
+
+ td {
+    border: 2px solid rgb(26, 26, 45);
+   
+}
+
+th {
+     background-color: rgb(26, 26, 45);
+    padding-top: 10px;
+}
+th:hover {
+     background-color: rgb(11, 11, 47);
+    color: rgb(13, 13, 237);
+    transition: 1s ease;
+}
+
+tr {
+    
+}
+
+.td {
+    background-color: rgba(69, 67, 67, 0.669);
+}
